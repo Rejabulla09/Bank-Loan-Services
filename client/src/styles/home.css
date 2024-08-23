@@ -1,0 +1,148 @@
+.img {
+    height: 100%;
+    width: 100%;
+   /* background : linear-gradient(blue,red); */
+    
+    /* position: fixed; */
+    /* position: absolute; */
+     object-fit: cover; 
+    object-position:top;
+  
+  z-index: -100;
+} 
+/* 
+.img{
+    position: absolute;
+    width: 290rem ;
+} */
+
+#main {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.326);
+
+}
+
+.page1 {
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1 h1 {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 6rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+}
+
+/* .page1 h1:hover{
+    mix-blend-mode:difference;
+} */
+
+.page1 p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.page2 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.para {
+    color: #1a1818;
+    background-color: #fff;
+    height: 20rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 4rem 5rem;
+    border-radius: 5rem 0 0 5rem;
+
+}
+
+.page2 h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px solid #1a1818;
+    margin-bottom: 10px;
+}
+
+.page3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.loan {
+    height: 25rem;
+    width: 60rem;
+    background-color: #fff;
+    border-radius: 0 5rem 5rem 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 4rem 0;
+    align-items: center;
+}
+
+.loan h1 {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px solid #1a1818;
+}
+
+
+
+.loans-div {
+    display: flex;
+    height: 10rem;
+    width: 100%;
+    padding: 0 4rem;
+    /* gap: 6rem; */
+    justify-content: space-between;
+    /* background-color: aqua; */
+
+    /* margin-top: 3rem; */
+}
+
+.loan1{
+    background-color: #333;
+    width: 10rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;   
+    cursor: pointer;
+}
+
+.loan1 i{
+    font-size: 2rem;
+}
+
+
+
+

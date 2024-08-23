@@ -1,0 +1,111 @@
+/* .applyforloan{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .applyforloan::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: no-repeat center/auto url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    z-index: -99;
+    filter: blur(1px);
+} */
+
+/* .apply_inner{
+    height: 20rem;
+    background-color: white;
+    width: 20rem;
+    text-align: center;
+    padding: 2rem;
+} */
+
+/* .apply_inner h1{
+    margin-bottom: 4.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+} */
+
+/* .apply_inner form input{
+    width: 100%;
+    padding: .6rem;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border: 2px solid grey;
+} */
+
+/* .apply_inner button{
+    background-color: aqua;
+    padding: .6rem 1.5rem;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-weight: 500;
+} */
+
+
+.applyforloan{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    padding: 9rem;
+    /* overflow-y: auto; */
+}
+
+.apply_inner{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 2rem;
+}
+
+.apply_inner h1{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    /* display: block; */
+}
+
+.apply_inner form div{
+    /* background-color: red; */
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.apply_inner form div label{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.apply_inner form input{
+    width: 100%;
+    height: 100%;
+    /* height: 1.5rem; */
+    border: none;
+    outline: none;
+    padding: 0 1.7rem;
+}
+
+.apply_inner button{
+    background-color: aqua;
+    padding: .6rem 1.5rem;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-weight: 500;
+}

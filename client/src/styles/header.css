@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+    /* padding: 1.3rem 1rem; */
+    /* background-color: transparent; */
+    /* background-color: aquamarine; */
+    position: sticky;
+    /* position: relative; */
+    background-color: black;
+    /* border-bottom: 2px solid rgba(78, 72, 72, 0.2); */
+    /* color: black; */
+    color:white;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.title h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+article{
+    /* background-color: red; */
+    display: flex;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+}
+
+article a:hover{
+    color: darkseagreen;
+}
+
+article .btn{
+    font-size: 1.2rem;
+    letter-spacing: 1.7px;
+}
+
+article .btn:hover{
+    color: darkseagreen;
+}
